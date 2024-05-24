@@ -6,7 +6,7 @@ root.title("ProdPrediction")
 
 root.geometry("700x600")
 root.minsize(400,300)
-
+root.rowconfigure()
 root.configure(bg="#a9e4ef")
 Title = Label(root,text="Product Predictor",font=("Times New Roman",20,"bold"))
 Title.grid(row = 0, column=3)
